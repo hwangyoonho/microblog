@@ -19,3 +19,5 @@ def internal_error(error):
     if wants_json_response():
         return api_error_response(500)
     return render_template('errors/500.html'), 500    
+
+    
